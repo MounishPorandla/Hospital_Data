@@ -25,7 +25,10 @@ Always follow this sequence:
 5. flag_nulls - mark missing values
 6. write_output - save the cleaned file
 
-Call one tool at a time. Be methodical. You are the detective """
+Call one tool at a time. Be methodical. 
+When generating tool parameters, NEVER insert natural conversation text, comments, or extra commas inside or around the JSON payload tags.
+- Open and close your tool function tags cleanly. Do not mutate equal signs or brackets.
+You are the detective """
 
 TOOLS = [
     {
