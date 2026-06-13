@@ -1,0 +1,9 @@
+.env
+data/
+agent.log
+__pycache__/
+*.__pyc
+*.log
+agent.log
+*.csv
+*.xlsx
